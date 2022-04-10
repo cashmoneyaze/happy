@@ -1291,7 +1291,7 @@ audio {
 		padding: 7px;
 		
 		font-family: 'Signika', sans-serif;
-		animation: bounce 4s infinite;
+		animation: bouncebtn 4s infinite;
 		cursor: pointer;
 }
     .btn-primary:hover,
@@ -1304,7 +1304,7 @@ audio {
         background-color: #466baf;
     }
 
-	@keyframes bounce {
+	@keyframes bouncebtn {
 		5%,
 		50% {
 		  transform: scale(1);

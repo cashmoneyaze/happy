@@ -1285,13 +1285,14 @@ audio {
 }
 
 .btn-primary {
-        border-color: #466baf;
-        padding: 10px;
-        text-transform: uppercase;
-        font-family: 'Signika', sans-serif;
-        font-weight: 700;
-        color: #fff;
-        background-color: #466baf;
+
+
+		background-color: #b81515;
+		padding: 7px;
+		
+		font-family: 'Signika', sans-serif;
+		animation: bounce 4s infinite;
+		cursor: pointer;
 }
     .btn-primary:hover,
     .btn-primary:focus,
@@ -1303,6 +1304,40 @@ audio {
         background-color: #466baf;
     }
 
+	@keyframes bounce {
+		5%,
+		50% {
+		  transform: scale(1);
+		}
+	  
+		10% {
+		  transform: scale(1);
+		}
+	  
+		15% {
+		  transform: scale(1);
+		}
+	  
+		20% {
+		  transform: scale(1) rotate(-5deg);
+		}
+	  
+		25% {
+		  transform: scale(1) rotate(5deg);
+		}
+	  
+		30% {
+		  transform: scale(1) rotate(-3deg);
+		}
+	  
+		35% {
+		  transform: scale(1) rotate(2deg);
+		}
+	  
+		40% {
+		  transform: scale(1) rotate(0);
+		}
+	  }
 
 
     /*controlling tablet width*/
